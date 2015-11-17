@@ -1,0 +1,81 @@
+.header-directive{
+    background-color: #141414;
+    padding-bottom:20px;
+    margin-bottom:30px;
+    position: relative;
+}
+.header-directive .header-menu{
+    float: right;
+    line-height:33px;
+}
+.header-directive .header-menu .header-links{
+    padding-right:20px;
+}
+.header-directive .header-menu a{
+    color:#333;
+    border-right:1px solid #333;
+    padding:0 5px;
+}
+.header-directive .header-menu a:hover{
+    color:white;
+}
+.header-directive .header-menu a:last-child{
+    border:none;
+}
+.header-directive .header-search{
+    background-color: #dcdcdc;
+    margin-bottom:-40px;
+    text-align: right;
+}
+.header-directive .header-search input{
+    padding:5px 10px;
+    width:340px;
+    margin:2px;
+}
+.header-directive .header-search input::-webkit-input-placeholder {
+    color:black;
+    font-weight: bold;
+}
+.header-directive .header-search input::-moz-placeholder          {
+    color:black;
+    font-weight: bold;
+}/* Firefox 19+ */
+.header-directive .header-search input:-moz-placeholder           {
+    color:black;
+    font-weight: bold;
+}/* Firefox 18- */
+.header-directive .header-search input:-ms-input-placeholder      {
+    color:black;
+    font-weight: bold;
+}
+.header-directive .menu-btn,
+.header-directive .search-btn{
+    position: absolute;
+    cursor:pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    top:0;
+
+}
+.header-directive .menu-btn{
+    left:0;
+    border-right:1px solid white;
+}
+
+.header-directive .search-btn{
+    right:0;
+    border-left:1px solid white;
+}
+@media screen and (max-width:768px){
+    .header-directive{
+        border-top:3px solid white;
+        height: 50px;
+        box-sizing: initial;
+        padding-left:50px;
+        padding-bottom:0;
+    }
+    .header-directive .logo{
+        line-height: 43px;
+    }
+}

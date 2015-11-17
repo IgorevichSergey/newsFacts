@@ -27,9 +27,6 @@
 .footer-directive .footer-top .footer-input:-ms-input-placeholder      {
     font-style:italic;
 }
-.footer-directive .footer-top .weather-degrees:after{
-    content:' \00b0'
-}
 .footer-directive .footer-bottom{
     font-size:10px;
     text-align: right;
@@ -69,7 +66,11 @@
     text-decoration: none;
     color:#B1B2B0;
 }
-
+.footer-directive .copyright-mobile{
+    font-size: 10px;
+    float:right;
+    line-height: 34px;
+}
 @media screen and (max-width:992px) {
     .footer-directive .menu-element ul li{
         font-size:10px;

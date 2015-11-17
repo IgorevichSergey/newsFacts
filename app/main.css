@@ -1,3 +1,44 @@
 .float-cleaner{
     clear: both;
 }
+.place{
+    font-size: 16px;
+    color:white;
+}
+.weather{
+    font-size: 16px;
+    color:white;
+}
+.weather-degrees:after{
+    content:' \00b0'
+}
+.logo{
+    line-height:33px;
+}
+.logo .news{
+    font-weight:bolder;
+    font-size:25px;
+    vertical-align: middle;
+    color:white;
+}
+.logo .facts{
+    font-weight:bolder;
+    font-size:25px;
+    vertical-align: middle;
+    color: #ff401f;
+    padding-right:10px;
+    border-right:1px solid white;
+}
+.logo .around-the-world{
+    padding-left:10px;
+    vertical-align: middle;
+}
+@media screen and (max-width:768px){
+    .logo .news,
+    .logo .facts{
+        font-size:18px;
+    }
+    .logo .around-the-world{
+        font-size:10px;
+    }
+}
