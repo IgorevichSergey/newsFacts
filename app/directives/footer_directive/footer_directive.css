@@ -30,6 +30,23 @@
 .footer-directive .footer-top .weather-degrees:after{
     content:' \00b0'
 }
+.footer-directive .footer-bottom{
+    font-size:10px;
+    text-align: right;
+    padding-bottom:15px;
+}
+.footer-directive .footer-bottom .footer-links{
+    padding-top:5px;
+}
+.footer-directive .footer-bottom .footer-links a{
+    color:#333;
+    text-decoration: none;
+    border-right:1px solid #333;
+    padding:0 5px;
+}
+.footer-directive .footer-bottom .footer-links a:last-child{
+    border:none;
+}
 .footer-directive .menu-element{
     width:14%;
     float:left;
