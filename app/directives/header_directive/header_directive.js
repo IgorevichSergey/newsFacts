@@ -7,7 +7,7 @@ angular.module('header.directive', [])
                     return "directives/header_directive/header_directive.html"
                 }
             },
-            template: '<div ng-include="header()"></div>'
+            template: '<div class="header-directive" ng-include="header()"></div>'
         }
     });
 

@@ -7,7 +7,7 @@ angular.module('footer.directive', [])
                     return "directives/footer_directive/footer_directive.html"
                 };
             },
-            template: '<div ng-include="footer()"></div>'
+            template: '<div class="footer-directive" ng-include="footer()"></div>'
         }
     });
 
