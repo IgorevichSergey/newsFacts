@@ -1,0 +1,33 @@
+.articles-page{
+
+}
+.articles-page .articles-page-header{
+    padding-bottom:10px;
+    margin-bottom:30px;
+    border-bottom:1px solid #E2E2E2;
+}
+.articles-page .video-example{
+    width:59%;
+    float:left;
+    margin-bottom:20px;
+}
+.articles-page .google-adw{
+    width:40%;
+    float:right;
+    text-align: right;
+}
+.articles-page .video-example img,
+.articles-page .google-adw img{
+    width:100%;
+}
+.articles-page .articles-text{
+    font-size:14px;
+    color:#161616;
+}
+
+
+@media screen and (max-width:768px){
+    .articles-page .articles-text{
+        font-size:12px;
+    }
+}
