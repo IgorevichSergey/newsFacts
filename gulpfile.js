@@ -11,9 +11,11 @@ var config = {
     SCRIPTS:[
         "./app/directives/**/*.js",
 
-        "./app/articles/articles.route.js",
         "./app/baseView/baseView.route.js",
+        "./app/articles/articles.route.js",
+        "./app/articles/articlesPageCtrl.js",
         "./app/home/homePage.route.js",
+        "./app/home/homePageCtrl.js",
         "./app/main.js"
     ],
     BOWER_SCRIPTS: [

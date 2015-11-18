@@ -1,6 +1,8 @@
 angular.module('baseView.route', [
     'header.directive',
     'footer.directive',
+    'time_block.directive',
+    'news_block.directive',
     'home.route',
     'articles.route'
 ])

@@ -1,0 +1,24 @@
+<div class="image-block">
+    <img src="{{news.image}}" />
+</div>
+<div class="text-block">
+    <div class="description-line">
+        {{news.description}}
+    </div>
+    <div class="options-line">
+        <time-block-directive dir-time="{{news.time}}" dir-date="{{news.date}}" dir-reuters="{{news.reuters}}"></time-block-directive>
+        <div class="news-right-block">
+             <span class="country-name">
+            {{news.countryName}}
+        </span>
+        <span class="news-type">
+            {{news.type}}
+        </span>
+        </div>
+
+    </div>
+    <div class="text-line">
+        {{news.text}}
+    </div>
+</div>
+<div class="float-cleaner"></div>

@@ -8,24 +8,37 @@
 }
 .footer-directive .footer-top .footer-input{
     float:right;
+}
+.footer-directive .footer-top .footer-input input{
+    color:#8A877B;
+    background-color: #2A2A2A;
     padding:5px;
     margin-top: -5px;
     border:1px solid #2A2A2A;
     border-radius:0;
-    background-color: #2A2A2A;
-    color:#8A877B;
 }
-.footer-directive .footer-top .footer-input::-webkit-input-placeholder {
+.footer-directive .footer-top .footer-input input::-webkit-input-placeholder {
     font-style:italic;
 }
-.footer-directive .footer-top .footer-input::-moz-placeholder          {
+.footer-directive .footer-top .footer-input input::-moz-placeholder          {
     font-style:italic;
 }/* Firefox 19+ */
-.footer-directive .footer-top .footer-input:-moz-placeholder           {
+.footer-directive .footer-top .footer-input input:-moz-placeholder           {
     font-style:italic;
 }/* Firefox 18- */
-.footer-directive .footer-top .footer-input:-ms-input-placeholder      {
+.footer-directive .footer-top .footer-input input:-ms-input-placeholder      {
     font-style:italic;
+}
+.footer-directive .footer-input{
+    position: relative;
+}
+.footer-directive .footer-input:before{
+    font-family: 'icoFont';
+    content:'\e902';
+    position: absolute;
+    font-size: 18px;
+    right:10px;
+    color:#A5A4A5;
 }
 .footer-directive .footer-bottom{
     font-size:10px;
@@ -75,5 +88,10 @@
     .footer-directive .menu-element ul li{
         font-size:10px;
         padding:3px 0;
+    }
+}
+@media screen and (max-width:768px){
+    .footer-directive{
+        border-bottom:1px solid white;
     }
 }

@@ -1,0 +1,15 @@
+.time-block-directive{
+    color:#737373;
+    display: inline-block;
+}
+.time-block-directive .reuters{
+    padding:0 5px 0 0;
+}
+.time-block-directive .date{
+    padding:0 5px;
+    border-right:1px solid #737373;
+    border-left:1px solid #737373;
+}
+.time-block-directive .time{
+    padding:0 5px;
+}

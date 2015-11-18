@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'icoFont';
+    src: url(../fonts/icoFont.ttf?t0o6sd) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icoFont';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\e900";
+    color:#445F94;
+}
+.icon-google:before {
+    content: "\e901";
+    color:#DC4E38;
+}
+.icon-magnifier:before {
+    content: "\e902";
+}
+.icon-menu:before {
+    content: "\e903";
+}
+.icon-record:before {
+    content: "\e904";
+    font-size:8px;
+}
+.icon-t:before {
+    content: "\e905";
+    color:#3F5975;
+}
+.icon-twitter:before {
+    content: "\e906";
+    color:#00A9EA;
+}
+.icon-facebook2:before {
+    content: "\ea8c";
+}
+.icon-linkedin2:before {
+    content: "\eac9";
+}
+
