@@ -39,6 +39,11 @@
     font-weight:800;
     font-size: 14px;
 }
+.news-block-directive span.country-name img{
+    width: 20px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
 .news-block-directive span.news-type{
     display: inline-block;
     background-color: #545454;

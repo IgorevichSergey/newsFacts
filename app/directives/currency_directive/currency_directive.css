@@ -3,6 +3,10 @@
     color:#363536;
     border-bottom:1px solid #DFDFDF;
 }
+.currency-element .top-line img{
+    width: 20px;
+    margin-right: 5px;
+}
 .currency-element .top-line .currency-name{
     font-weight: bolder;
 }

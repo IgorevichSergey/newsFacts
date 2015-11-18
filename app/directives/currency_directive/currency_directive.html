@@ -1,6 +1,6 @@
 <div class="top-line">
-    <img src=""/><span class="currency-name">{{name}}</span>
+    <img src="{{flag}}"/><span class="currency-name">{{name}}</span>
 </div>
 <div class="bottom-line">
-    1 <span class="currency-name">USD</span> = {{exchangeRate}} AMD <span ng-if="currencyIndex > 0" class="index-arrow">&#9650</span> <span ng-if="currencyIndex < 0" class="index-arrow">&#9660</span>{{currencyIndex}}
+    1 <span class="currency-name">{{name}}</span> = {{exchangeRate}} AMD <span ng-if="currencyIndex > 0" class="index-arrow">&#9650</span> <span ng-if="currencyIndex < 0" class="index-arrow">&#9660</span>{{currencyIndex}}
 </div>

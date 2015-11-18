@@ -93,6 +93,13 @@
     display: inline-block;
     text-align: right;
 }
+.content-block .left-side-google-ads{
+    width: 100%;
+    margin-bottom:10px;
+}
+.content-block .left-side-google-ads img{
+    width:100%;
+}
 .content-block .right-google-adw{
     width: 100%;
     margin-bottom:10px;
