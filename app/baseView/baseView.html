@@ -46,14 +46,16 @@
             <div class="hidden-xs col-sm-3 col-md-2 col-lg-2">
                 <div class="left-side-menu hidden-xs">
                     <ul>
-                        <li class="menu-title">
-                        <span class="menu-icon">
-                            <img src="images/hotChocolate_ico.png"/>
-                        </span>
-                            <span class="description">Hot News</span>
-                        </li>
                         <a href="#">
-                            <li>
+                            <li ng-click="menuPage = 'hotNews'" ng-class="{'active':menuPage == 'hotNews' || menuPage == undefined}">
+                            <span class="menu-icon">
+                                <img src="images/hotChocolate_ico.png"/>
+                            </span>
+                                <span class="description">Hot News</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li ng-click="menuPage = 'Business'" ng-class="{'active':menuPage == 'Business'}">
                             <span class="menu-icon">
                                  <img src="images/user_ico.png"/>
                             </span>
@@ -61,7 +63,7 @@
                             </li>
                         </a>
                         <a href="#">
-                            <li>
+                            <li ng-click="menuPage = 'Technology'" ng-class="{'active':menuPage == 'Technology'}">
                             <span class="menu-icon">
                                 <img src="images/technology_ico.png"/>
                             </span>
@@ -69,7 +71,7 @@
                             </li>
                         </a>
                         <a href="#">
-                            <li>
+                            <li ng-click="menuPage = 'Fun'" ng-class="{'active':menuPage == 'Fun'}">
                             <span class="menu-icon">
                                 <img src="images/martini_ico.png"/>
                             </span>
@@ -77,7 +79,7 @@
                             </li>
                         </a>
                         <a href="#">
-                            <li>
+                            <li ng-click="menuPage = 'Sport'" ng-class="{'active':menuPage == 'Sport'}">
                             <span class="menu-icon">
                                 <img src="images/soccer_ico.png"/>
                             </span>
@@ -85,7 +87,7 @@
                             </li>
                         </a>
                         <a href="#">
-                            <li>
+                            <li ng-click="menuPage = 'Science'" ng-class="{'active':menuPage == 'Science'}">
                             <span class="menu-icon">
                                 <img src="images/chemistry_ico.png"/>
                             </span>
@@ -93,7 +95,7 @@
                             </li>
                         </a>
                         <a href="#">
-                            <li>
+                            <li ng-click="menuPage = 'Health'" ng-class="{'active':menuPage == 'Health'}">
                             <span class="menu-icon">
                                 <img src="images/hart_ico.png"/>
                             </span>
@@ -145,7 +147,10 @@
                     <img src="images/right_side2.png"/>
                 </div>
                 <div class="right-currency-block">
-
+                    <currency-directive name="USD" exchange-rate="476.35" currency-index="0.7200"></currency-directive>
+                    <currency-directive name="GBR" exchange-rate="737.68" currency-index="5.5400"></currency-directive>
+                    <currency-directive name="EUR" exchange-rate="531.89" currency-index="6.9800"></currency-directive>
+                    <currency-directive name="RUB" exchange-rate="8.41" currency-index="0.0800"></currency-directive>
                 </div>
                 <div class="right-some-plugin-block">
                     <img src="images/right_side4.png"/>

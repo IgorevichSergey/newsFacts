@@ -1,7 +1,7 @@
 .header-directive{
     background-color: #141414;
-    padding-bottom:20px;
-    margin-bottom:30px;
+    padding-bottom:10px;
+    margin-bottom:40px;
     position: relative;
 }
 .header-directive .header-menu{
@@ -12,7 +12,7 @@
     padding-right:20px;
 }
 .header-directive .header-menu a{
-    color:#333;
+    color:#6C6E6C;
     border-right:1px solid #333;
     padding:0 5px;
 }
@@ -24,7 +24,8 @@
 }
 .header-directive .header-search{
     background-color: #dcdcdc;
-    margin-bottom:-40px;
+    margin-top:10px;
+    margin-bottom:-30px;
     text-align: right;
 }
 .header-directive .header-search input{

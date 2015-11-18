@@ -32,6 +32,7 @@
 .logo .around-the-world{
     padding-left:10px;
     vertical-align: middle;
+    color:#BFBFBF;
 }
 @media screen and (max-width:768px){
     .logo .news,

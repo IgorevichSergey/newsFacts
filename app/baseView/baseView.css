@@ -11,7 +11,7 @@
     color:#D7D7D7;
     padding:0 10px;
     vertical-align: middle;
-    font-weight: bolder;
+    font-weight: 500;
 }
 .language-select .language-select-block{
     max-width:165px;
@@ -23,6 +23,8 @@
 }
 .language-select .language-select-block select{
     width:100%;
+    border-radius:0;
+    border:1px solid #D3D3D3;
     background-color: white;
     height:40px;
 }
@@ -54,11 +56,14 @@
 .content-block .left-side-menu{
     
 }
-.content-block .left-side-menu li.menu-title{
+.content-block .left-side-menu ul li.active{
     background-color: #545454;
     border-left:1px solid #545454;
     border-right:1px solid #545454;
     color:#ECECEC;
+}
+.content-block .left-side-menu li.menu-title{
+
 }
 .content-block .left-side-menu ul{
     padding-left:0;
@@ -67,7 +72,11 @@
     text-decoration: none;
     color:#060606;
 }
+.content-block .left-side-menu ul a:first-child li{
+    border-top:1px solid #DCDCDC;
+}
 .content-block .left-side-menu ul li{
+    background-color: #f0f0f0;
     height:45px;
     font-size:16px;
     line-height: 45px;
@@ -125,6 +134,11 @@
 }
 .content-block .right-weather-block img{
     width:100%;
+}
+.content-block .right-currency-block{
+    border:1px solid #E1E1E1;
+    padding:20px 10px;
+    margin-bottom:20px;
 }
 .content-block .right-some-plugin-block{
     width:100%;

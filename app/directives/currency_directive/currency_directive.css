@@ -1,0 +1,19 @@
+.currency-element{
+    font-size:15px;
+    color:#363536;
+    border-bottom:1px solid #DFDFDF;
+}
+.currency-element .top-line .currency-name{
+    font-weight: bolder;
+}
+.currency-element .index-arrow{
+    font-size: 16px;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #363536;
+    border-radius: 100%;
+}
