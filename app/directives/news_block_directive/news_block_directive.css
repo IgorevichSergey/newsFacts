@@ -25,6 +25,12 @@
     overflow: hidden;
     margin-bottom:10px;
 }
+.news-block-directive .news-square{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background-color: #ff2b14;
+}
 .news-block-directive .options-line .time-block-directive{
     color:#161616;
     font-size:12px;
@@ -71,6 +77,10 @@
     .news-block-directive .description-line{
         font-size:10px;
         margin-bottom:5px;
+    }
+    .news-block-directive .news-square{
+        width:10px;
+        height:10px;
     }
     .news-block-directive .options-line{
         margin-bottom:5px;
