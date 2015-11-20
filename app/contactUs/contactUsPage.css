@@ -1,0 +1,93 @@
+.contact-us-page{
+
+}
+.contact-us-page .top-text-block{
+    margin-bottom:20px;
+}
+.contact-us-page .top-text-block p{
+    text-align: justify;
+}
+.contact-us-page .top-text-block img{
+    margin-left:10px;
+    margin-bottom:10px;
+    width: 40%;
+    min-width: 190px;
+}
+.contact-us-page .google-adw img{
+    width:100%;
+    margin-bottom:10px;
+}
+.contact-us-page .middle-text-block{
+    margin-bottom:20px;
+}
+.contact-us-page .middle-text-block p{
+    text-align: justify;
+}
+.contact-us-page .faq-block{
+    padding-bottom: 20px;
+    border-bottom:1px solid #979797;
+}
+.contact-us-page .faq-block .news-square{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    background-color: #ff2b14;
+}
+.contact-us-page .faq-block .faq-block-description{
+    font-size: 18px;
+    font-weight: 900;
+    color:black;
+    margin-left:10px;
+}
+.contact-us-page .faq-block .question-answer-block{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.contact-us-page .faq-block .question-answer-block .question-block{
+    float:left;
+    border-right:1px solid #979797;
+    width:40%;
+}
+.contact-us-page .faq-block .question-answer-block .question-block .one-question{
+    padding: 7px 0 7px 5px;
+    color: #777777;
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    border-bottom: 1px solid #979797;
+    font-size: 17px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.contact-us-page .faq-block .question-answer-block .question-block .one-question.selected-question{
+    background-color: #eb2712;
+    color:white;
+}
+.contact-us-page .faq-block .question-answer-block .question-block .one-question:last-child{
+    border:none;
+}
+.contact-us-page .faq-block .question-answer-block .answer-block{
+    width: 60%;
+    padding-left: 10px;
+    float: right;
+    text-align: justify;
+    line-height: 1.5em;
+    height: 15em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #4f4f4f;
+}
+.contact-us-page .news-blocks-block{
+    padding-top:20px;
+}
+@media screen and (max-width: 768px){
+    .contact-us-page .news-square{
+        width:10px;
+        height:10px;
+    }
+}

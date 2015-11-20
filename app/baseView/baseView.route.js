@@ -5,7 +5,8 @@ angular.module('baseView.route', [
     'news_block.directive',
     'currency.directive',
     'home.route',
-    'articles.route'
+    'articles.route',
+    'contactUs.route'
 ])
     .config(function($stateProvider) {
         $stateProvider

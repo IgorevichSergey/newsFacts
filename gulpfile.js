@@ -16,6 +16,8 @@ var config = {
         "./app/articles/articlesPageCtrl.js",
         "./app/home/homePage.route.js",
         "./app/home/homePageCtrl.js",
+        "./app/contactUs/contactUsPage.route.js",
+        "./app/contactUs/contactUsPageCtrl.js",
         "./app/main.js"
     ],
     BOWER_SCRIPTS: [

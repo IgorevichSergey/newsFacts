@@ -1,0 +1,62 @@
+<div class="contact-us-page">
+    <div class="top-text-block">
+        <p>
+            <img src="images/center_1.png" align="right"/>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+            Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+            Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+            Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+            Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+            Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+            Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+        </p>
+
+    </div>
+    <div class="google-adw">
+        <img src="images/content_top1.png">
+    </div>
+    <div class="middle-text-block">
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+            Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+            Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+            Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+            Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
+            Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+            Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+        </p>
+    </div>
+    <div class="faq-block">
+        <span class="news-square"></span>
+        <span class="faq-block-description">Frequently Asked Questions</span>
+        <div class="question-answer-block">
+            <div class="question-block">
+                <div class="one-question"
+                     ng-class="{'selected-question': contactUsPageCtrl.currentAnswer == _faq.faq_id}"
+                     ng-click="contactUsPageCtrl.currentAnswer = _faq.faq_id"
+                     ng-repeat="_faq in contactUsPageCtrl.faq">{{_faq.question}}</div>
+            </div>
+            <div class="answer-block"
+                 ng-repeat="_faq in contactUsPageCtrl.faq"
+                 ng-if="_faq.faq_id == contactUsPageCtrl.currentAnswer">
+                {{_faq.answer}}
+            </div>
+            <div class="float-cleaner"></div>
+        </div>
+    </div>
+    <div class="news-blocks-block">
+        <news-block-directive news="contactUsPageCtrl.news_example"></news-block-directive>
+    </div>
+</div>
